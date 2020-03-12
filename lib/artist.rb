@@ -15,7 +15,7 @@ class Artist
     self.name = name
     self.save
   end
-  
+
   def save
     @@all << self
   end
@@ -28,5 +28,5 @@ class Artist
     Song.all.select { |song| song.artist == self }
   end
 
-  
+
 end
