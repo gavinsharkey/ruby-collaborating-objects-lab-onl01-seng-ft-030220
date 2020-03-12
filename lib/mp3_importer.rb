@@ -12,5 +12,5 @@ class MP3Importer
     dir = Dir[self.path]
     binding.pry
   end
-  
+
 end
