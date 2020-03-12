@@ -6,5 +6,5 @@ class MP3Importer
     @path = path
   end
 
-  
+
 end
