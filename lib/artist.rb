@@ -33,7 +33,4 @@ class Artist
     self.songs.each { |song| puts song.name }
   end
 
-  def
-
-
 end
