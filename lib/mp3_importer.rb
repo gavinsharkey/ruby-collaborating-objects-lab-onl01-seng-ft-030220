@@ -9,7 +9,7 @@ class MP3Importer
 
   def files
     files = []
-    dir = Dir[self.path].children
+    dir = Dir.entries(self.path)
     binding.pry
   end
 
